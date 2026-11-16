@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio';
 import Destinos from './pages/Destinos';
 import DetalleDestino from './pages/DetalleDestino';
 import Nosotros from './pages/Nosotros';
+import NoEncontrado from './pages/NoEncontrado';
 import './App.css'
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
         <Route path="destinos" element={<Destinos />} />
         <Route path="destinos/:id" element={<DetalleDestino />} />
         <Route path="nosotros" element={<Nosotros />} />
-        <Route path="*" element={<h2>404 - Página no encontrada</h2>} />
+        <Route path="*" element={<> {<NoEncontrado />} </>} />
       </Route>
     </Routes>
   );

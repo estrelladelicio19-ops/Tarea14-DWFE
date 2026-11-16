@@ -212,3 +212,9 @@ nav a.active {
   background-color: #082b56;
   transform: translateY(-2px);
 }
+footer{
+    text-align: center;
+    padding: 20px;
+     margin-top: 40px;
+    color: #051664;
+}

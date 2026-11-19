@@ -278,6 +278,6 @@ footer p {
 
 /* Estilo para la clase "active" que configuraste en Nav.jsx */
 .cabecera nav a.active {
-  color: white;
-  background-color: #0284c7;
+  color: rgb(0, 0, 0);
+  background-color: #00a6fff1;
 }
